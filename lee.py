@@ -47,4 +47,58 @@
         # while n % 4 == 0:
             # n //= 4
         # return n == 1  
-                          
+
+# class Solution:
+#   def isPalindrome(self, x):
+    # if x < 0:
+    #   return False
+
+    # rev = 0
+    # y = x
+
+    # while y:
+    #   rev = rev * 10 + y % 10
+    #   y //= 10
+
+    # return rev == x       
+         
+# class Solution(object):
+#     def hammingWeight(self, n):
+#         """
+#         :type n: int
+#         :rtype: int
+#         """
+#         count = 0
+#         while n:
+#             n = n & (n - 1)
+#             count += 1
+#         return count 
+             
+
+# class Solution(object):
+#     def hammingWeight(self, n):
+#         """
+#         :type n: int
+#         :rtype: int
+#         """
+#         count = 0
+#         while n:
+#             n = n & (n - 1)
+#             count += 1
+#         return count  
+
+# class Solution(object):
+    # def isPowerOfThree(self, n):
+        # """
+        # :type n: int
+        # :rtype: bool
+        # """
+        # if n <= 0:
+            # return False
+        
+        # while n > 1:
+            # if n % 3 != 0:
+                # return False
+            # n = n // 3
+        
+        # return True     
